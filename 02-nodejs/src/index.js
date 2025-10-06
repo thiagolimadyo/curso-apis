@@ -3,7 +3,7 @@
 // 2 - Obter Endereço do Usuário
 // Executar as funções de forma assíncrona, simulando acesso a um banco de dados
 
-async function obterUsuario(callback) {
+function obterUsuario(callback) {
   setTimeout(function () {
     // return callback(new Error("Erro Usuário"), null);
     return callback(null, {
